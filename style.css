@@ -1,0 +1,322 @@
+/* Menghilangkan margin dan padding pada beberapa elemen kunci */
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.button {
+  padding: 0px 10px;
+  border-radius: 50px;
+  background: rgb(43, 38, 199);
+  background: linear-gradient(
+    141deg,
+    rgba(43, 38, 199, 1) 0%,
+    rgba(180, 11, 80, 0.9332107843137255) 100%
+  );
+}
+
+.button:hover {
+  background: #e55d87; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5fc3e4,
+    #e55d87
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5fc3e4,
+    #e55d87
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.button a {
+  padding: 7px 0px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.hero {
+  object-fit: cover;
+  height: 79vh;
+  width: 100%;
+  z-index: -10;
+}
+
+.object {
+  object-fit: cover;
+}
+.color-primary {
+  color: #e10473;
+}
+
+.color-secondary {
+  color: #580473;
+}
+
+.background-primary {
+  background-color: #e10473;
+}
+.background-secondary {
+  background-color: #580473;
+}
+
+.tombol-primary {
+  border-radius: 50px;
+  padding: 15px;
+  background-color: #e10473;
+  width: 270px;
+}
+.tombol-secondary {
+  border-radius: 50px;
+  background: linear-gradient(
+    141deg,
+    rgba(43, 38, 199, 1) 0%,
+    rgba(180, 11, 80, 0.9332107843137255) 100%
+  );
+  width: 270px;
+}
+.tombol-secondary:hover {
+  background: #e55d87; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5fc3e4,
+    #e55d87
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5fc3e4,
+    #e55d87
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tombol {
+  border-radius: 50px;
+  padding: 15px;
+  background-color: #580473;
+  width: 270px;
+}
+
+.tombol:hover {
+  background-color: #e10473;
+}
+
+.tombol-primary:hover {
+  background-color: #580473;
+}
+
+.banner-3 {
+  background-image: url("./assets/banner-3.png");
+  background-size: cover;
+  background-position: center;
+  height: 63vh;
+  /* position: relative; */
+  /* bottom: 120px; */
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.banner-4 {
+  background-image: url(./assets/banner-4.jpg);
+  background-size: cover;
+}
+.banner-5 {
+  background-image: url(./assets/banner-5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-6 {
+  background-image: url(./assets/banner-6.png);
+  background-size: cover;
+}
+
+.banner-7 {
+  background-image: url(./assets/banner-7.png);
+  background-size: cover;
+  height: 50vh;
+  /* width: 100vh; */
+}
+
+.talent-image {
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
+
+.rora {
+  scale: 1.4;
+  position: relative;
+  z-index: -1;
+}
+.rhea {
+  scale: 1.2;
+  position: relative;
+  z-index: -1;
+}
+.leifa {
+  scale: 1.2;
+  position: relative;
+  z-index: -1;
+}
+.rumi {
+  height: 980px;
+  scale: 0.9;
+  position: relative;
+  z-index: -1;
+}
+
+.alterly {
+  background-image: url(https://static.wixstatic.com/media/14a977_fb122aa5992a417c86aa6c4632c189b1~mv2.png);
+  background-size: cover;
+  height: 50vh;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+#card {
+  transition-duration: 500ms;
+  width: 11rem;
+}
+
+.yt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.card-item {
+  width: 30%;
+}
+
+#card:hover {
+  scale: 1.25;
+}
+
+.live-streaming-content {
+  background-size: cover;
+  height: 60vh;
+}
+
+@media (max-width: 575.98px) {
+  .hero {
+    object-fit: cover;
+    object-position: left;
+    height: 55vh;
+  }
+  .banner-3 {
+    background-position: 20%;
+  }
+  .banner-7 {
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+  }
+  .banner-5 {
+    background-repeat: no-repeat;
+  }
+  .alterly {
+    height: 20vh;
+  }
+  #card {
+    width: 90%;
+  }
+  .card-item {
+    width: 100%;
+  }
+  .live-streaming-content {
+    background-size: cover;
+    height: 20vh;
+  }
+  .keterangan-live {
+    position: relative;
+    bottom: 70px;
+  }
+  .keterangan-paragraf {
+    position: relative;
+    bottom: 20px;
+  }
+  .leifa,
+  .rhea,
+  .rora,
+  .rumi {
+    scale: 1;
+    height: 85vh;
+  }
+  .milly {
+    scale: 0.8;
+    height: 70vh;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .banner-3 {
+    background-position: 20%;
+    height: 70vh;
+    margin-bottom: 20p;
+  }
+  .banner-5 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .banner-7 {
+    background-position: center;
+  }
+  .alterly {
+    height: 45vh;
+  }
+  .card-item {
+    width: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .alterly {
+    height: 30vh;
+  }
+}

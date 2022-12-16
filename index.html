@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alterly</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/ALTERLY_LOGO-01.webp"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header section -->
+    <nav class="navbar navbar-expand-lg container-fluid" style="height: 70px">
+      <div class="container align-middle">
+        <a
+          class="navbar-brand d-flex justify-content-center"
+          style="width: 35%"
+          href="#"
+          ><img
+            style="height: 80px; object-fit: cover; object-position: center"
+            src="./assets/ALTERLY_LOGO-01.webp"
+            alt=""
+        /></a>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse mx-5" id="navbarNav">
+          <ul
+            class="navbar-nav d-flex justify-content-end mx-auto align-items-center"
+          >
+            <li class="nav-item mx-1">
+              <a
+                class="nav-link active fw-semibold current-link"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link fw-semibold" href="about.html">About</a>
+            </li>
+
+            <!-- drop down -->
+            <li class="nav-item dropdown mx-1">
+              <a
+                class="nav-link dropdown-toggle fw-semibold"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Talent
+              </a>
+              <ul
+                class="dropdown-menu bg-secondary shadow-sm bg-opacity-50 text-center"
+                style="border-radius: 5px"
+              >
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    href="talent/RORA-MEEZA.html"
+                    style="font-size: 14px"
+                    >RORA MEEZA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    href="talent/MILLY-COTONE.html"
+                    style="font-size: 14px"
+                    >MILLY COTONE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    href="talent/LEIFA-NERINE.html"
+                    style="font-size: 14px"
+                    >LEIFA NERINE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    href="talent/RHEA-AGEHA.html"
+                    style="font-size: 14px"
+                    >RHEA AGEHA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    href="talent/RUMI-NAITA.html"
+                    style="font-size: 14px"
+                    >RUMI NAITA</a
+                  >
+                </li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+              </ul>
+            </li>
+            <!-- end drop down -->
+
+            <li class="nav-item mx-1">
+              <a class="nav-link fw-semibold" href="livestreaming.html"
+                >Livestream</a
+              >
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link fw-semibold" href="#contact-us">Contact us</a>
+            </li>
+            <li class="nav-item button mx-1">
+              <a href="" class="nav-link text-white">Be a VTUBER</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end header section -->
+
+    <!-- hero section -->
+    <section>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/14a977_6aa2dc7b4f1b45f49bb3bab319dc0f3c_mv2.png"
+              class="d-block w-100 hero"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-flex align-items-start flex-column my-4"
+            >
+              <h4 class="color-primary display-6 fw-bold my-0">ALTERLY:</h4>
+              <h2 class="text-white fw-bold display-4 lh-1 my-0">
+                Virtual <br />Talent
+              </h2>
+              <h4 class="text-white fw-semibold display-5 my-0">Agency</h4>
+              <p class="text-white" style="font-size: 15px">
+                Collaborate your brand with our VTuber!
+              </p>
+              <div class="tombol-primary my-0" data-aos="fade-left">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: white;
+                    padding: 5px 0px;
+                  "
+                  >Contact Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/14a977_b29ba5ccb78a4b249673ce80bd037bde_mv2.jpg"
+              class="d-block w-100 hero"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-flex align-items-start flex-column my-5"
+            >
+              <h2
+                class="text-white fw-bold lh-1 display-3 fst-italic"
+                style="width: 200px; text-align: start"
+              >
+                STREAM <span class="fw-semibold">everyday</span>
+              </h2>
+              <p class="text-white" style="font-size: 15px">
+                Watch your favorite VTuber
+              </p>
+              <div class="text-center tombol" data-aos="fade-left">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: white;
+                    padding: 5px 0px;
+                  "
+                  >Watch Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/14a977_55910c9f981b4708bb4467c1968347e7_mv2.png"
+              class="d-block w-100 hero"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-flex align-items-start flex-column my-5"
+            >
+              <h2 class="text-white fw-bold lh-1 display-3">EXCLUSIVE</h2>
+              <h2 class="text-white display-6 fst-italic">Content & Merch</h2>
+              <p class="text-white" style="width: 360px; text-align: start">
+                Join Youtube membership of you favorite VTuber to get exclusive
+                content
+              </p>
+              <div class="text-center tombol">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: white;
+                    padding: 5px 0px;
+                  "
+                  >Watch Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- about section -->
+    <section class="mt-4">
+      <div class="banner-3">
+        <div class="container px-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 text-center mx-3">
+                <h3
+                  class="display-7 color-secondary fw-bold pt-5"
+                  data-aos="fade-down"
+                  data-aos-duration="2000"
+                  style="letter-spacing: 10px"
+                >
+                  ABOUT
+                </h3>
+                <p
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  class="mx-auto"
+                  style="
+                    width: 260px;
+                    margin-top: 20px;
+                    font-size: 15px;
+                    line-height: 30px;
+                  "
+                >
+                  ALTERLY is a virtual entertainment agency that focused on
+                  producing and developing virtual characters to unlock new
+                  potential business lines and expand the audience through
+                  personalized virtual character.
+                </p>
+                <div
+                  style="
+                    border-bottom: 1px solid black;
+                    width: 25%;
+                    margin: auto;
+                  "
+                ></div>
+                <button
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  class="tombol-secondary py-2 my-2"
+                  style="width: 150px; border: none; border-radius: 12px"
+                >
+                  <a href="" style="text-decoration: none" class="text-white"
+                    >Join Discord <i class="bi bi-chat-dots ms-2"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- section our vtuber -->
+    <section class="mb-5">
+      <div class="banner-4 text-center mx-auto py-3">
+        <h3 class="color-secondary" data-aos="zoom-in" data-aos-duration="100">
+          OUR VTUBER
+        </h3>
+        <p
+          class="text-black"
+          style="font-size: 15px"
+          data-aos="zoom-in"
+          data-aos-duration="100"
+          data-aos-delay="200"
+        >
+          Every talent has their own specialities and interests, find out more!
+        </p>
+        <div
+          class="d-flex justify-content-center flex-wrap"
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+          data-aos-delay="450"
+        >
+          <div class="card bg-transparent mx-1 my-1 shadow" id="card">
+            <img src="./assets/card-1.png" class="card-img-top" alt="..." />
+            <div class="pb-2">
+              <h5 class="color-secondary fw-500" style="font-size: 17px">
+                RUMI NAITA
+              </h5>
+            </div>
+          </div>
+          <div class="card bg-transparent mx-1 my-1 shadow" id="card">
+            <img src=".//assets/card-2.png" class="card-img-top" alt="..." />
+            <div class="pb-2">
+              <h5 class="color-secondary fw-500" style="font-size: 17px">
+                RORA MEEZA
+              </h5>
+            </div>
+          </div>
+          <div class="card bg-transparent mx-1 my-1 shadow" id="card">
+            <img src="./assets/card-3.png" class="card-img-top" alt="..." />
+            <div class="pb-2">
+              <h5 class="color-secondary fw-500" style="font-size: 17px">
+                MILLY COTONE
+              </h5>
+            </div>
+          </div>
+          <div class="card bg-transparent mx-1 my-1 shadow" id="card">
+            <img src="./assets/card-4.png" class="card-img-top" alt="..." />
+            <div class="pb-2">
+              <h5 class="color-secondary fw-500" style="font-size: 17px">
+                LEIFA NERINE
+              </h5>
+            </div>
+          </div>
+          <div class="card bg-transparent mx-1 my-1 shadow" id="card">
+            <img src="./assets/card-5.png" class="card-img-top" alt="..." />
+            <div class="pb-2">
+              <h5 class="color-secondary fw-500" style="font-size: 17px">
+                RHEA AGEHA
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section our vtuber -->
+
+    <!-- section merchandise -->
+    <section class="my-5">
+      <div class="pt-5 mx-auto text-center">
+        <h3 class="color-secondary fw-semibold">OFFICIAL MERCHANDISE</h3>
+        <div class="py-3">
+          <span
+            class="mx-auto"
+            style="
+              border-bottom: 5px dotted #e10473;
+              display: block;
+              width: 20%;
+            "
+          ></span>
+        </div>
+        <p style="font-size: 17px">Something exciting is coming!</p>
+        <button
+          style="border: 1px solid black"
+          class="bg-transparent px-4 py-1"
+        >
+          <a href="" style="text-decoration: none" class="text-black"
+            >Cooming Soon</a
+          >
+        </button>
+      </div>
+    </section>
+    <!-- end section merchandise -->
+
+    <!-- section content Be a VTuber -->
+    <section>
+      <div class="banner-5 py-5" style="background-color: #580473">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="text-center py-3">
+                <h2 class="fw-bolder color-primary">Be a VTuber!</h2>
+                <div style="width: 18rem" class="mx-auto">
+                  <p class="text-white my-4" style="font-size: 15px">
+                    Interested in being VTUBER? ALTERLY is now holding auditions
+                    for those who have experience in the content creation
+                    (games, songs & creators) and distribution.
+                  </p>
+                  <p class="text-white mb-2" style="font-size: 15px">
+                    We welcome you to challenge yourself in becoming our
+                    generation of VTubers!
+                  </p>
+                  <button
+                    class="tombol-primary py-2"
+                    style="border: none"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                  >
+                    <a
+                      href=""
+                      style="text-decoration: none"
+                      class="text-white fw-bolder fs-5"
+                      >Submit Now</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section content Be a VTuber -->
+
+    <!-- section news -->
+    <section class="my-5">
+      <div class="container mx-auto text-center">
+        <h2 class="fw-bold color-secondary mb-5" style="letter-spacing: 7px">
+          NEWS
+        </h2>
+        <div class="container mx">
+          <div class="d-flex justify-content-center flex-wrap">
+            <div
+              class="mx-1"
+              style="width: 20rem"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+            >
+              <a href="" style="text-decoration: none; color: black">
+                <div class="card my-1" style="border-radius: 0px">
+                  <img
+                    src="./assets/card-v1.jpg"
+                    class="card-img-top"
+                    alt="card-image"
+                    style="height: 250px; object-fit: cover"
+                  />
+                  <div class="card-body">
+                    <p class="card-text fs-5 pb-5 pt-3">
+                      Milly Livestream Schedule
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="mx-1"
+              style="width: 20rem"
+              style="width: 20rem"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+              data-aos-delay="200"
+            >
+              <a href="" style="text-decoration: none; color: black">
+                <div class="card my-1" style="border-radius: 0px">
+                  <img
+                    src="./assets/card-v2.jpg"
+                    class="card-img-top"
+                    alt="card-image"
+                    style="height: 250px; object-fit: cover"
+                  />
+                  <div class="card-body">
+                    <p class="card-text fs-5 pb-5 pt-3">
+                      Rumi Livestream Schedule
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              class="mx-1"
+              style="width: 20rem"
+              style="width: 20rem"
+              style="width: 20rem"
+              data-aos="flip-left"
+              data-aos-duration="2000"
+              data-aos-delay="300"
+            >
+              <a href="" style="text-decoration: none; color: black">
+                <div class="card my-1" style="border-radius: 0px">
+                  <img
+                    src="./assets/card-v3.jpg"
+                    class="card-img-top"
+                    alt="card-image"
+                    style="height: 250px; object-fit: cover"
+                  />
+                  <div class="card-body">
+                    <p class="card-text fs-5 pb-5 pt-3">
+                      Leifa Livestream Schedule
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section news -->
+
+    <!-- section contact-us -->
+    <section class="my-5" id="contact-us">
+      <div class="container">
+        <div class="mx-5">
+          <h2 class="color-secondary fw-bold">CONTACT US</h2>
+          <div class="row py-5">
+            <div class="col-md-6">
+              <form action="">
+                <div class="row py-2">
+                  <div class="col-md-6">
+                    <p class="text-capitalize">first name</p>
+                    <input
+                      class="bg-light py-2"
+                      type="text"
+                      style="
+                        width: 100%;
+                        border: none;
+                        border-bottom: 2px solid rgba(88, 4, 115, 0.7);
+                      "
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <p class="text-capitalize">last name</p>
+                    <input
+                      class="bg-light py-2"
+                      type="text"
+                      style="
+                        width: 100%;
+                        border: none;
+                        border-bottom: 2px solid rgba(88, 4, 115, 0.7);
+                      "
+                    />
+                  </div>
+                </div>
+                <div class="py-2">
+                  <p class="text-capitalize">email</p>
+                  <input
+                    class="bg-light py-2"
+                    type="text"
+                    style="
+                      width: 100%;
+                      border: none;
+                      border-bottom: 2px solid rgba(88, 4, 115, 0.7);
+                    "
+                  />
+                </div>
+                <div class="py-2">
+                  <p>Write a Message</p>
+                  <textarea
+                    class="bg-light py-2"
+                    type=""
+                    style="
+                      width: 100%;
+                      border: none;
+                      border-bottom: 2px solid rgba(88, 4, 115, 0.7);
+                    "
+                  ></textarea>
+                </div>
+                <div class="py-2">
+                  <button
+                    class="py-2 tombol"
+                    style="border: none; width: 150px"
+                  >
+                    <a href="" style="text-decoration: none" class="text-white"
+                      >Submit</a
+                    >
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <div class="container lh-1">
+                <p>For media and business inquiries</p>
+                <p class="fw-bold">business@alterly.tv</p>
+                <button
+                  style="border: 1px solid black"
+                  class="bg-transparent px-4 py-2"
+                >
+                  <a
+                    href=""
+                    style="text-decoration: none; font-size: 16px"
+                    class="color-secondary text-capitalize fw-light"
+                    >request ratecard ></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section contact-us -->
+
+    <!-- top footer section -->
+    <section>
+      <div class="banner-6 py-3">
+        <div class="container">
+          <div class="mx-5">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="color-secondary fw-bold fs-1">
+                  Let's create art to life together !
+                </h2>
+              </div>
+              <div class="col-md mt-2">
+                <button class="py-2 px-5 tombol-primary" style="border: none">
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="text-white fw-bold"
+                    >Contact Us</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end top footer section -->
+
+    <!-- footer section -->
+    <section>
+      <div
+        class="background-secondary py-5"
+        style="border-top: 2px solid #e10473"
+      >
+        <div class="container">
+          <div class="mx-5">
+            <div class="row">
+              <div class="col-md-3">
+                <div>
+                  <img
+                    src="https://static.wixstatic.com/media/14a977_66b12fa9cf81459e85b932873da3e540~mv2.png/v1/fill/w_181,h_102,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ALTERLY_LOGO-PUTIH.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-3 text-white">
+                <div class="lh-1">
+                  <p class="fs-5">Business@alterly.tv</p>
+                  <p class="fs-5">(+62) 815-1047-5205</p>
+                </div>
+                <p style="font-size: 15px">
+                  WHIM Building <br />
+                  Jl. RS. Fatmawati Raya No.6b Daerah Khusus Ibukota Jakarta
+                </p>
+              </div>
+              <div class="col-md-1 text-capitalize footer-link">
+                <a href="">home</a>
+                <a href="">about</a>
+                <a href="">talent</a>
+                <a href="">livestream</a>
+                <a href="">contact us</a>
+              </div>
+              <div class="col">
+                <div class="mx-5">
+                  <div class="d-flex flex-wrap justify-content-center">
+                    <a href="" class="mx-1">
+                      <img
+                        src="https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8d6893330740455c96d218258a458aa4.png"
+                        alt=""
+                      />
+                    </a>
+                    <a href="" class="mx-1">
+                      <img
+                        src="https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e316f544f9094143b9eac01f1f19e697.png"
+                        alt=""
+                      />
+                    </a>
+                    <a href="" class="mx-1">
+                      <img
+                        src="https://static.wixstatic.com/media/9c4b521dd2404cd5a05ed6115f3a0dc8.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9c4b521dd2404cd5a05ed6115f3a0dc8.png"
+                        alt=""
+                      />
+                    </a>
+                    <a href="" class="mx-1">
+                      <img
+                        src="https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a1b09fe8b7f04378a9fe076748ad4a6a.png"
+                        alt=""
+                      />
+                    </a>
+                    <a href="" class="mx-1">
+                      <img
+                        src="https://static.wixstatic.com/media/11062b_7a80704b0d4547c4a6a39347d587411d~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_7a80704b0d4547c4a6a39347d587411d~mv2.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="text-center my-2 text-white">
+                    <p style="font-size: 12px">
+                      All right reserved © 2021 ALTERLY
+                    </p>
+                  </div>
+                  <div class="my-2 mx-5 text-white">
+                    <p style="font-size: 12px">Supported by:</p>
+                    <div class="row">
+                      <div class="col-6">
+                        <img
+                          class="mx-2"
+                          src="https://static.wixstatic.com/media/14a977_a708c3b014614633a27f85b64df6d7ea~mv2.png/v1/crop/x_0,y_250,w_1080,h_548/fill/w_112,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20WHIM-Putih%20(2).png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-6">
+                        <img
+                          class="mt-2 mx-2"
+                          src="https://static.wixstatic.com/media/14a977_8ed8c262c2bc4353801c92799cc0870a~mv2.png/v1/fill/w_110,h_32,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ATTN%20New%20Logo%20-%20%20White%20Base.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end footer section -->
+
+    <!-- scrol back to top start -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-circle"
+      id="btn-back-to-top"
+      style="background: linear-gradient(to bottom right, #580473, #e10473)"
+    >
+      <i class="bi bi-arrow-up text-white"></i>
+    </button>
+    <!-- scrol back to top end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
